@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lambda-ai-automation
+  description: >
+    Lambda-based AI automation tooling.
+  annotations:
+    github.com/project-slug: Three-Moons-Network/lambda-ai-automation
+  tags:
+    - aws
+    - lambda
+    - python
+    - ai
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:linuxlsr
